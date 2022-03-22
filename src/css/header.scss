@@ -1,0 +1,41 @@
+.layout-header {
+  width: 100%;
+  display: flex;
+  .ant-menu {
+    border-bottom: 0;
+  }
+  div {
+    width: 100%;
+  }
+  .register-login {
+    padding: 5px;
+    text-align: right;
+    button {
+      width: 150px;
+    }
+  }
+  //   display: inline-block;
+  //   .register-login {
+  //     display: inline-block;
+  //   }
+}
+.header-login-modal {
+  .ant-modal-footer {
+    display: none;
+  }
+  .ant-input-affix-wrapper {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .ant-row,
+  .ant-form-item-control {
+    width: 100%;
+  }
+  .ant-form-item {
+    margin-bottom: 10px;
+  }
+  button {
+    width: 100%;
+    // margin-bottom: 10px;
+  }
+}

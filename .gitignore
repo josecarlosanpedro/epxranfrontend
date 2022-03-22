@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/.next
+/.serverless
+/.serverless_uat
+/.serverless_prod
+/.serverless_uat
+/.serverless_nextjs
+/.serverless_nextjs_uat
+/.serverless_nextjs_prod
+/.serverless_nextjs_uat
+
+
+# testing
+/coverage
+
+# production
+/build
+/out
+
+#css generated
+/styles/bundle/antd.css
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.staging.local
+.env.production.local
+.env.production
+.env.staging
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+**/public/precache.*.*.js
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/fallback-*.js
+**/public/precache.*.*.js.map
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+**/public/fallback-*.js
+
+yarn.lock
+package-lock.json
+
+/target
